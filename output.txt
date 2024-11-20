@@ -1,0 +1,383 @@
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 1
+Enter the username to add: john
+[sudo] password for ubuntu_user:
+User 'john' added successfully.
+
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 2
+Enter the username to delete: john
+User 'john' deleted successfully.
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 2
+Enter the username to delete: john
+userdel: user 'john' does not exist
+Failed to delete user 'john'.
+
+
+
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: 1
+Enter the new username: john_up
+Username changed successfully.
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 1
+Enter the username to add: john
+[User 'john' added successfully.
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 2
+Enter the username to delete: john
+User 'john' deleted successfully.
+
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 2
+Enter the username to delete: john
+userdel: user 'john' does not exist
+Failed to delete user 'john'.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: john_updated
+Invalid option.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 1
+Enter the username to add: john
+User 'john' added successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john_up
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: s
+Invalid option.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 2
+Enter the username to delete: john
+User 'john' deleted successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: 1
+Enter the new username: john_up
+usermod: user 'john' does not exist
+Failed to change username.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 1
+Enter the username to add: john
+User 'john' added successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: john_up
+Invalid option.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 3
+Enter the username to modify: john
+Options:
+1. Change username
+2. Change shell
+3. Change home directory
+Choose an option: 1
+Enter the new username: john_up
+Username changed successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 4
+Enter the group name to create: dev_team
+Group 'dev_team' created successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 5
+Enter the username: john_up
+Enter the group name: dev_team
+User 'john_up' added to group 'dev_team' successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 6
+Enter the directory to backup:
+/home/john/documents
+Enter the backup destination directory:
+/home/john_up/backup_documents.tar.gz
+tar: Removing leading `/' from member names
+tar: /home/john/documents: Cannot stat: No such file or directory
+tar (child): /home/john_up/backup_documents.tar.gz/backup_2024-11-20.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Backup of /home/john/documents completed.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 7
+Exiting script. Goodbye
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 4
+Enter the group name to create: dev_team
+Group 'dev_team' created successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 5
+Enter the username: john_up
+Enter the group name: dev_team
+User 'john_up' added to group 'dev_team' successfully.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 6
+Enter the directory to backup:
+/home/john/documents
+Enter the backup destination directory:
+/home/john_up/backup_documents.tar.gz
+tar: Removing leading `/' from member names
+tar: /home/john/documents: Cannot stat: No such file or directory
+tar (child): /home/john_up/backup_documents.tar.gz/backup_2024-11-20.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Backup of /home/john/documents completed.
+=====================================
+User Management and Backup Script
+=====================================
+1. Add User
+2. Delete User
+3. Modify User
+4. Create Group
+5. Add User to Group
+6. Backup Directory
+7. Exit
+=====================================
+Enter your choice: 7
+Exiting script. Goodbye!
